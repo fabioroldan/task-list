@@ -1,5 +1,7 @@
 .main {
   min-height: calc(100vh - 11rem);
+  max-width: 45rem;
   padding: 0 1rem;
   --squircle-fill: white;
+  margin: auto;
 }
