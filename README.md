@@ -1,4 +1,9 @@
-# TodoList
+# TaskList
+
+**This is a task list made with angular created for educational purposes**
+
+[![Angular task-list](./src/assets/images/screenshot.png)](#)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
