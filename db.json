@@ -1,26 +1,28 @@
 {
-  "tasks": [{
-    "id": 1,
-    "text": "Terminar primer modulo de Angular",
-    "day": "Agosto 5 a las 12:00",
-    "reminder":  true
-  },
-  {
-    "id": 2,
-    "text": "Hacer compras para la cena",
-    "day": "Agosto 10 a las 20:00",
-    "reminder":  false
-  },
-  {
-    "id": 3,
-    "text": "Investigar sobre Flexbox y Grid",
-    "day": "Agosto 12 a las 12:00",
-    "reminder":  false
-  },
-  {
-    "id": 4,
-    "text": "Hacer un juego con JS",
-    "day": "Agosto 13 a las 12:00",
-    "reminder":  false
-  }]
+  "tasks": [
+    {
+      "text": "Terminar primer modulo de Angular",
+      "day": "2021-11-12T01:00",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "Hacer compras para la cena",
+      "day": "2021-11-12T01:00",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "Investigar sobre Flexbox y Grid",
+      "day": "2021-11-10T01:01",
+      "reminder": false,
+      "id": 7
+    },
+    {
+      "text": "Hacer un juego con JS",
+      "day": "2021-11-19T01:01",
+      "reminder": false,
+      "id": 8
+    }
+  ]
 }

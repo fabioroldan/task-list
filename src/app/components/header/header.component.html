@@ -1,4 +1,4 @@
 <header class="header">
   <h1>{{title}}:</h1>
-  <app-button color="white" text="Add task" (btnClick)="toggleAddTask()"></app-button>
+  <app-button *ngIf="hasRoute('/')" color="{{showAddTask ? 'var(--color-1)' : 'var(--color-2)'}}" text="{{showAddTask ? 'Hide Add Task' : 'Show Add Task'}}" (btnClick)="toggleAddTask()"></app-button>
 </header>

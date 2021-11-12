@@ -1,5 +1,8 @@
-<div class="taks">
-  <h3>{{task.text}}</h3>
-  <fa-icon [icon]="faTimes"></fa-icon>
-  <p>{{task.day}}</p>
+<div class="squircle squircle-shadow task" (click)="onToggle(task)">
+    <fa-icon class="icon big reminder" [icon]="faBell" [ngClass]="{reminder: task.reminder}"></fa-icon>
+    <div class="text">
+      <h3>{{task.text}}</h3>
+      <p class="">{{task.day  | date:'EEEE, MMMM d, y  | h:mm a'}}</p>
+    </div>
+  <fa-icon class="icon  delete big" [icon]="faTimes" (click)="onDelete(task)"></fa-icon>
 </div>

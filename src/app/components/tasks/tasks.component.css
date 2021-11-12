@@ -1,0 +1,15 @@
+app-tasks-item:nth-child(4n+1) {
+  --squircle-fill: var(--color-1);
+}
+
+app-tasks-item:nth-child(4n+2) {
+  --squircle-fill: var(--color-2);
+}
+
+app-tasks-item:nth-child(4n+3) {
+  --squircle-fill: var(--color-3);
+}
+
+app-tasks-item:nth-child(4n+4) {
+  --squircle-fill: var(--color-4);
+}

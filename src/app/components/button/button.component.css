@@ -1,0 +1,8 @@
+.btn{
+  border: none;
+  padding: 1rem;
+  width: 9rem;
+  /* --squircle-fill: var(--color-1); */
+  color:white;
+  font-weight: bold;
+}

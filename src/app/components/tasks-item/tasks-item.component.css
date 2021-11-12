@@ -1,17 +1,45 @@
-.task{
-  background-color: #fab10c;
-  margin: 1rem;
+.task {
+  margin: 1rem 0;
   padding: 1rem;
   cursor: pointer;
-}
-
-.task.reminder{
-  border-left: 5px solid green;
-}
-
-
-.task h3 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  color: white;
 }
+
+.task .text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-shadow: 0 0 2rem hsla(0, 0%, 0%, 0.329);
+}
+
+.task p {
+  margin-top: 0;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.big {
+  width: 7rem;
+  height: 7rem;
+  font-size: 5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(0 0 0.5rem hsl(0, 0%, 90%));
+}
+
+.big:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.reminder {
+  color: white;
+}
+
+.delete {
+}
+
